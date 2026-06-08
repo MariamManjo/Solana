@@ -14,10 +14,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "SolGuard AI — AI Security Layer for Solana",
+  title: "Study Planner Agent",
   description:
-    "Detect scam tokens, suspicious wallets, and risky on-chain activity using AI.",
-  keywords: ["Solana", "AI", "security", "token analysis", "scam detection"],
+    "Generate structured weekly study schedules with timeline-aware checkpoints and recommendations.",
+  keywords: ["study planner", "learning", "AI assistant", "study schedule"],
 };
 
 export default function RootLayout({
