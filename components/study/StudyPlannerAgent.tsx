@@ -250,7 +250,7 @@ export function StudyPlannerAgent() {
               <h2 className="text-lg font-medium">Agent recommendations</h2>
               <ul className="list-disc list-inside space-y-1 text-sm text-zinc-300">
                 {plan.recommendations.map((tip, index) => (
-                  <li key={`${tip}-${index}`}>{tip}</li>
+                  <li key={index}>{tip}</li>
                 ))}
               </ul>
             </div>
